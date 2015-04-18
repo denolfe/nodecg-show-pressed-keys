@@ -1,0 +1,12 @@
+{
+  "name": "nodecg-show-pressed-keys",
+  "version": "0.0.1",
+  "nodecgDependency": "0.5.4",
+  "description": "Show keystrokes on an on-screen keyboard",
+  "homepage": "https://github.com/denolfe/nodecg-show-pressed-keys",
+  "authors": "Elliot DeNolf <denolfe@gmail.com>",
+  "extension": {
+    "path": "extension.js"
+  }
+}
+  

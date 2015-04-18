@@ -1,0 +1,5 @@
+#gxl-credits_staffCollapse {
+    max-height: 200px;
+    overflow-y: scroll;
+    font-size: small;
+}

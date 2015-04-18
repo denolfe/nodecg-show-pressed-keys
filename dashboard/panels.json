@@ -1,0 +1,9 @@
+[
+  {
+    "name": "nodecg-show-pressed-keys",
+    "title": "Show Pressed Keys",
+    "width": 2,
+    "file": "panel.jade",
+    "faIcon": "fa-keyboard-o"
+  }
+]
