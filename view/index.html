@@ -7,12 +7,13 @@
     <link href="/view/nodecg-show-pressed-keys/osk-full.css" rel="stylesheet"/>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.2.2/octicons.css" rel="stylesheet"/>
 
 </head>
 <body>
  
 <div id="container">
-    <!-- <textarea id="write" rows="6" cols="60"></textarea> -->
+    <input id="showInput" class="form-control" rows="6" cols="60" />
     <ul id="keyboard">
         <li id="Escape" class="row1 symbol"><span class="normchars">Esc</span><span class="specialchars">~</span></li>
         <li id="1" class="row1 symbol"><span class="normchars">1</span><span class="specialchars">!</span></li>
@@ -27,8 +28,8 @@
         <li id="0" class="row1 symbol"><span class="normchars">0</span><span class="specialchars">)</span></li>
         <li id="OemMinus" class="row1 symbol"><span class="normchars">-</span><span class="specialchars">_</span></li>
         <li id="Oemplus" class="row1 symbol"><span class="normchars">=</span><span class="specialchars">+</span></li>
-        <li class="row1 delete lastitem">Back</li>
-        <li id="Tab" class="tab">Tab</li>
+        <li id="Back" class="row1 delete lastitem"><i class="fa fa-long-arrow-left fa-lg"></i></li>
+        <li id="Tab" class="tab"><span class="octicon octicon-move-right"></span></li>
         <li id="Q" class="letter">Q</li>
         <li id="W" class="letter">W</li>
         <li id="E" class="letter">E</li>
@@ -42,7 +43,7 @@
         <li id="OemOpenBrackets" class="symbol"><span class="normchars">[</span><span class="specialchars">{</span></li>
         <li id="Oem6" class="symbol"><span class="normchars">]</span><span class="specialchars">}</span></li>
         <li id="Oem5" class="symbol lastitem"><span class="normchars">\</span><span class="specialchars">|</span></li>
-        <li id="Capital" class="capslock">Caps</li>
+        <li id="Capital" class="capslock"><i class="fa fa-caret-square-o-up"></i></li>
         <li id="A" class="letter">A</li>
         <li id="S" class="letter">S</li>
         <li id="D" class="letter">D</li>
@@ -54,8 +55,8 @@
         <li id="L" class="letter">L</li>
         <li id="Oem1" class="symbol"><span class="normchars">;</span><span class="specialchars">:</span></li>
         <li id="Oem7" class="symbol"><span class="normchars">'</span><span class="specialchars">&quot;</span></li>
-        <li id="Enter" class="return lastitem">Enter</li>
-        <li id="LShiftKey" class="left-shift">Shift</li>
+        <li id="Enter" class="return lastitem"><i class="fa fa-level-down fa-rotate-90 fa-lg"></i></li>
+        <li id="LShiftKey" class="left-shift"><i class="fa fa-chevron-up"></i></li>
         <li id="Z" class="letter">Z</li>
         <li id="X" class="letter">X</li>
         <li id="C" class="letter">C</li>
@@ -66,7 +67,7 @@
         <li id="Oemcomma" class="symbol"><span class="normchars">,</span><span class="specialchars">&lt;</span></li>
         <li id="OemPeriod" class="symbol"><span class="normchars">.</span><span class="specialchars">&gt;</span></li>
         <li id="OemQuestion" class="symbol"><span class="normchars">/</span><span class="specialchars">?</span></li>
-        <li id="RShiftKey" class="right-shift lastitem">Shift</li>
+        <li id="RShiftKey" class="right-shift lastitem"><i class="fa fa-chevron-up"></i></li>
         <li id="LControlKey" class="ctrl">Ctrl</li>
         <li id="LMenu" class="alt">Alt</li>
         <li id="Space" class="space">&nbsp;</li>

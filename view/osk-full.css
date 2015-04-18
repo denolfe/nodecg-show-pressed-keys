@@ -9,7 +9,7 @@ body {
   background: none; }
 
 #container {
-  margin: 100px auto;
+  margin: 20px;
   width: 688px; }
 
 #keyboard {
@@ -62,3 +62,16 @@ body {
   left: 1px;
   border-color: #e5e5e5;
   cursor: pointer; }
+
+.form-control {
+  width: 631px;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  background: transparent;
+  border: none;
+  margin-bottom: 7px;
+  border-radius: 6px;
+  box-shadow: none;
+}
