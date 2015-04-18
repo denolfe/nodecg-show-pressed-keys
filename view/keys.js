@@ -31,7 +31,7 @@ function keyUp (key) {
   if (key == 'LShiftKey' || key == 'RShiftKey') {
     Shift(false);
   }
-  $('#' + key).transition({x: -1, y: -1, 'background': 'rgba(255,255,255,0.7)', 'box-shadow': '0 8px 8px -8px black'}, 35);
+  $('#' + key).transition({x: -1, y: -1, 'box-shadow': '0 8px 8px -8px black'}, 35).transition({'background': 'rgba(255,255,255,0.7)'}, 100);
 }
 
 function Shift (pressed) {
